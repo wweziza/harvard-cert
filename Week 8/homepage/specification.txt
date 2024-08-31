@@ -1,0 +1,24 @@
+10 HTML tags used:
+1. <nav>
+2. <main>
+3. <footer>
+4. <h1>
+5. <p>
+6. <div>
+7. <ul>
+8. <li>
+9. <a>
+10. <button>
+
+5 CSS properties used:
+1. background-color
+2. color
+3. font-family
+4. transition
+5. animation
+
+JavaScript usage:
+JavaScript was used to create interactive animations, such as revealing text on scroll and adding a dynamic hover effect to cards. It was also used to update the copyright year in the footer dynamically.
+
+Bootstrap usage:
+Bootstrap was integrated for responsive design, utilizing its grid system,

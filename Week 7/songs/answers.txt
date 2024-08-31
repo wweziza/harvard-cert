@@ -1,0 +1,15 @@
+Characterizing the Audio Aura:
+To gauge a listener's audio aura, we can average the danceability, energy, and valence of their top 100 songs.
+
+Limitations:
+
+Mixed Genres: The list might not fully represent the listener's tastes due to its variety.
+Context Ignored: It doesn't account for when or how the songs are listened to.
+Changing Tastes: Preferences might shift over the year.
+
+Better Methods:
+
+Genre Analysis: Look at specific genres for clearer insights.
+Track Changes: Monitor how preferences change over time.
+Contextual Info: Consider the context in which songs are played.
+These methods can provide a more accurate picture of the listener’s musical mood.

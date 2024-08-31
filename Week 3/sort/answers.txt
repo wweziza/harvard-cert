@@ -1,0 +1,17 @@
+sort1 uses: Bubble Sort
+How do you know?:
+1. It performs best on already sorted data, showing the fastest time for sorted small datasets. This aligns with Bubble Sort's best-case scenario of Ω(n).
+2. It struggles significantly with reversed and random data, especially in larger sets. This matches Bubble Sort's worst-case time complexity of O(n^2).
+3. It's the slowest with reversed data, consistent with Bubble Sort's behavior of making many swaps to move elements from one end to the other.
+
+sort2 uses: Merge Sort
+How do you know?:
+1. It shows consistent performance across all data types, which is characteristic of Merge Sort's O(n log n) time complexity in all cases.
+2. It's significantly faster than the other algorithms on large random datasets, demonstrating Merge Sort's efficiency in dividing and conquering unsorted data.
+3.While not the fastest on already sorted data, it maintains good performance, reflecting Merge Sort's consistent behavior regardless of initial data order.
+
+sort3 uses: Selection Sort
+How do you know?:
+1. Its performance is consistently between sort1 and sort2 for random data, aligning with Selection Sort's average-case time complexity of Θ(n^2).
+2. It shows similar execution times for both sorted and reversed data, matching Selection Sort's characteristic of always scanning through all elements.
+3. It performs better than sort1 (Bubble Sort) on reversed data but worse than sort2 (Merge Sort), consistent with Selection Sort's behavior of making fewer swaps than Bubble Sort but still requiring quadratic time.

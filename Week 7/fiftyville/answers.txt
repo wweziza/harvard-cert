@@ -1,0 +1,4 @@
+The THIEF is: Bruce
+The city the thief ESCAPED TO: New York City
+The ACCOMPLICE is: Robin
+This solution is based on the evidence provided in the SQL queries. Bruce made a suspicious ATM withdrawal, was seen leaving the bakery around the time of the theft, made a short phone call to Robin, and took the earliest flight to New York City the next day. Robin, as the accomplice, helped by purchasing the flight ticket.

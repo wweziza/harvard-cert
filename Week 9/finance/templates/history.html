@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <!-- Head content same as base layout -->
+</head>
+<body class="bg-gray-900 text-gray-100 min-h-screen flex flex-col">
+    <header>
+        <!-- Header content same as base layout -->
+    </header>
+
+    <main class="container mx-auto px-6 py-8 flex-grow">
+        <h1 class="text-3xl font-bold mb-6">Transaction History</h1>
+        <div class="bg-gray-800 rounded-lg shadow-lg p-6">
+            <table class="w-full">
+                <thead>
+                    <tr class="text-left border-b border-gray-700">
+                        <th class="pb-2">Type</th>
+                        <th class="pb-2">Symbol</th>
+                        <th class="pb-2">Shares</th>
+                        <th class="pb-2">Price</th>
+                        <th class="pb-2">Date/Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for transaction in transactions %}
+                    <tr class="border-b border-gray-700">
+                        <td class="py-2">{{ transaction.type }}</td>
+                        <td class="py-2">{{ transaction.symbol }}</td>
+                        <td class="py-2">{{ transaction.shares }}</td>
+                        <td class="py-2">{{ transaction.price }}</td>
+                        <td class="py-2">{{ transaction.timestamp }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <!-- Footer content same as base layout -->
+    </footer>
+</body>
+</html>
